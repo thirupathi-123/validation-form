@@ -1,0 +1,60 @@
+ /* Globally initialising the pading , margin and font to it's default */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+} 
+/* Designing Submit Button */
+.submit-button{
+    background-color: brown;
+    width:100px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+/* Designing form-group classes */
+.form-group{
+    border-radius: 10px;
+    padding: 0 2px;
+}
+/* Designing the heading of validation form */
+/* '>'  implies us to access the first element or first child of container class */
+.container > h2{
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+/* Giving style to the whole body  */
+body{
+    background-color:rgb(247, 252, 252);
+}
+/* Designing or giving style to input labels */
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* style of input elements we write */
+input{
+    color: solid black;
+    font-size: medium;
+}
+/* Styling the input box */
+.form-control{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Style of error message that displays when the validation is not done properly */
+.error-message {
+    color: red;
+}
